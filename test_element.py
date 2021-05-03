@@ -1,15 +1,15 @@
 import unittest
 import element
 
-class testCaseCube(unittest.TestCase):
+class testCaseElement(unittest.TestCase):
     #test code for normal values
-    def test_cube(self):
-        self.assertEqual(element.fill_list(5,5,5,5), 25)
+    def test_element(self):
+        self.assertEqual(element.fill_list(5,5,5,5), 5)
 
     #test code for a zero value
-    def test_cube_1(self):
-        self.assertEqual(element.fill_list(5,1,4,5), 15)
+    def test_element_1(self):
+        self.assertEqual(element.fill_list(5,0,4,5), 15)
 
     #test code for a negative value
-    def test_cube_2(self):
+    def test_element_2(self):
         self.assertEqual(element.fill_list(7,-1,3,5), 16)
