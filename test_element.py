@@ -8,8 +8,8 @@ class testCaseElement(unittest.TestCase):
 
     #test code for a zero value
     def test_element_1(self):
-        self.assertEqual(element.fill_list(5,0,4,5), 15)
+        self.assertEqual(element.fill_list(5,0,4,5), 3.5)
 
     #test code for a negative value
     def test_element_2(self):
-        self.assertEqual(element.fill_list(7,-1,3,5), 16)
+        self.assertEqual(element.fill_list(7,-1,3,5), 5.33)
