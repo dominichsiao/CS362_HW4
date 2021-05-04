@@ -8,7 +8,7 @@ class testCaseCube(unittest.TestCase):
 
     #test code for a zero value
     def test_cube_1(self):
-        self.assertEqual(cube.cube(0), 1)
+        self.assertEqual(cube.cube(0), 0)
 
     #test code for a negative value
     def test_cube_2(self):
